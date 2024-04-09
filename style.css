@@ -1,0 +1,155 @@
+body {
+	background-color: #D49476;
+	color: #992712  ;
+	font-family: "Elsie Swash Caps", serif;
+	font-size: 19px;
+	background-image: url('https://images.pexels.com/photos/695207/pexels-photo-695207.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+
+
+h1 {
+	color: #91230F;
+	font-family: "Nosifer", sans-serif;
+	font-size: 70px;
+	margin-bottom: 1px;
+}
+
+
+
+h2 {
+	color: #B51F00;
+	font-weight: bold;
+}
+
+a {
+	color: #EA3A05;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EDC4C4;
+	transition: color 0.3s ease;
+}
+
+
+ /* Class design */
+
+.container {
+	width: 700px;
+	margin: 50px auto;
+}
+
+/* Responsive design */
+
+
+@media (max-width: 900px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 350px;
+	}
+}
+
+
+/* class design*/
+
+.Box-floralwhite {
+	background-color: floralwhite;
+}
+
+.Box-floralwhite:hover {
+	background-color: floralwhite;
+} 
+
+.Box-border { 
+	border: 3px ridge floralwhite; 
+	border-radius:50px;
+} 
+
+.Box-margin {
+	margin: 50px auto;
+}
+
+.Text-centered {
+	text-align: center;
+}
+
+.Box-padding {
+	padding: 20px;
+	box-shadow: 12px 9px 12px #EAD6D6;
+} 
+
+
+.list-inline {
+	list-style: none;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 30px;
+	font-size: 25px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #B83F1B;
+}
+
+.list-inline i:hover {
+	color: #D58870;
+}
+
+.img-size {
+	width: 200px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.Btn-orange {
+	background-color: #AA3F2C
+;
+	padding: 10px;
+	border-radius: 10px;
+	color: whitesmoke;
+}
+
+
+.Btn-orange:hover {
+	background-color: #CF4624;
+	transition: 0.2s;
+}
+
+
+/* Id Design */
+
+#Introduction {
+	padding-bottom: 35px;
+}
+
+
+#Introduction p {
+	padding-bottom: 15px;
+} 
+
+#Introduction img{
+	width: 150px;
+}
+
+
+
+
+
